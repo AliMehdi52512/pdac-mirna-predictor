@@ -1,0 +1,82 @@
+{
+    "MIMAT0027468": {
+        "mature_name": "hsa-miR-6784-5p",
+        "mean_shap": 0.3852360218292504,
+        "min_val": 10.845,
+        "max_val": 13.346,
+        "mean_val": 12.149217391304347,
+        "std_val": 0.8271211798736943
+    },
+    "MIMAT0027510": {
+        "mature_name": "hsa-miR-6805-5p",
+        "mean_shap": 0.30784449446011747,
+        "min_val": 9.859,
+        "max_val": 11.905,
+        "mean_val": 10.854198757763976,
+        "std_val": 0.5125306676175069
+    },
+    "MIMAT0030996": {
+        "mature_name": "hsa-miR-7107-5p",
+        "mean_shap": 0.26667614790510635,
+        "min_val": 11.378,
+        "max_val": 13.908,
+        "mean_val": 12.556583850931677,
+        "std_val": 0.5624443034537533
+    },
+    "MIMAT0019852": {
+        "mature_name": "hsa-miR-4787-5p",
+        "mean_shap": 0.2512854479544842,
+        "min_val": 5.449,
+        "max_val": 11.111,
+        "mean_val": 8.709906832298136,
+        "std_val": 1.4261391972789783
+    },
+    "MIMAT0015064": {
+        "mature_name": "hsa-miR-4485-3p",
+        "mean_shap": 0.2439483662588316,
+        "min_val": -0.74,
+        "max_val": 9.71,
+        "mean_val": 6.9849503105590065,
+        "std_val": 1.6046765359459605
+    },
+    "MIMAT0019069": {
+        "mature_name": "hsa-miR-4532",
+        "mean_shap": 0.22762621248513307,
+        "min_val": 8.297,
+        "max_val": 11.503,
+        "mean_val": 9.926919254658385,
+        "std_val": 0.8209473413011583
+    },
+    "MIMAT0022943": {
+        "mature_name": "hsa-miR-6087",
+        "mean_shap": 0.17075683581026785,
+        "min_val": 9.967,
+        "max_val": 15.514,
+        "mean_val": 11.3884099378882,
+        "std_val": 1.1682706582383302
+    },
+    "MIMAT0005866": {
+        "mature_name": "hsa-miR-1268a",
+        "mean_shap": 0.1690842585023837,
+        "min_val": -0.74,
+        "max_val": 7.677,
+        "mean_val": 5.55375155279503,
+        "std_val": 1.5927761339523514
+    },
+    "MIMAT0027462": {
+        "mature_name": "hsa-miR-6781-5p",
+        "mean_shap": 0.16274315527918407,
+        "min_val": 8.824,
+        "max_val": 10.973,
+        "mean_val": 10.05572049689441,
+        "std_val": 0.5460529531462598
+    },
+    "MIMAT0019229": {
+        "mature_name": "hsa-miR-4665-3p",
+        "mean_shap": 0.16224836157119132,
+        "min_val": 10.451,
+        "max_val": 12.87,
+        "mean_val": 11.599596273291924,
+        "std_val": 0.6098860793099189
+    }
+}
