@@ -12,5 +12,5 @@ jobs:
     steps:
       - name: Send keep-alive ping
         run: |
-          curl -s -L "https://https://ali-mehdi-pdac.streamlit.app/" > /dev/null
+          curl -s -L "https://ali-mehdi-pdac.streamlit.app/" > /dev/null
           echo "Keep-alive ping dispatched successfully."
