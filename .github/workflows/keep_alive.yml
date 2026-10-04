@@ -1,0 +1,16 @@
+name: Keep Streamlit App Awake
+
+on:
+  schedule:
+    # Triggers every 4 hours automatically
+    - cron: '0 */4 * * *'
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send keep-alive ping
+        run: |
+          curl -s -L "https://YOUR-APP-NAME.streamlit.app" > /dev/null
+          echo "Keep-alive ping dispatched successfully."
