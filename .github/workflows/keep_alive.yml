@@ -2,8 +2,8 @@ name: Keep Streamlit App Awake
 
 on:
   schedule:
-    # Runs every 4 hours automatically
-    - cron: '0 */4 * * *'
+    # Runs every 4 hours at minute 15
+    - cron: '15 */4 * * *'
   workflow_dispatch:
 
 jobs:
@@ -12,5 +12,10 @@ jobs:
     steps:
       - name: Send keep-alive ping
         run: |
-          curl -s -m 15 -A "Mozilla/5.0" "https://ali-mehdi-pdac.streamlit.app/" -o /dev/null -w "HTTP Status: %{http_code}\n"
+          echo "Pinging App 1..."
+          curl -sL -m 20 -A "Mozilla/5.0" "https://ali-mehdi-pdac.streamlit.app/" -o /dev/null -w "App 1 Status: %{http_code}\n"
+          
+          echo "Pinging App 2..."
+          curl -sL -m 20 -A "Mozilla/5.0" "https://YOUR_SECOND_APP_NAME.streamlit.app/" -o /dev/null -w "App 2 Status: %{http_code}\n"
+          
           echo "Keep-alive ping dispatched successfully."
